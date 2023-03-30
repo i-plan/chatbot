@@ -1,0 +1,44 @@
+// 按需引入
+@import "~taro-ui/dist/style/components/list.scss";
+@import "~taro-ui/dist/style/components/icon.scss";
+@import "~taro-ui/dist/style/components/input.scss";
+@import "~taro-ui/dist/style/components/icon.scss";
+@import "~taro-ui/dist/style/components/button.scss"; 
+@import "~taro-ui/dist/style/components/card.scss";
+@import "~taro-ui/dist/style/components/flex.scss";
+
+html, body {
+height: 100%;
+}
+page{height: 100%;}
+
+.flex-wrp {
+    // flex-wrap: wrap;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-direction:column;
+}
+// .flex-item {
+//     display: flex;
+//     position: relative;
+//     justify-content: space-around;
+//     align-items: center;
+//     color: #FFFFFF;
+//     font-size: 30rpx;
+// }
+// html,
+// body {
+//   height: 100%;
+//   .taro-tabbar__container,
+//   .taro_router {
+//     height: 100%;
+//     > div {
+//       height: 100%;
+//       .taro_page {
+//         height: 100%;
+//       }
+//     }
+//   }
+// }
